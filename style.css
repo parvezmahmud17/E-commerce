@@ -128,7 +128,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: left 2px; ;
+    margin: left 2px;
 
 }
 #feture .frture-box{
@@ -154,4 +154,77 @@ body{
     font-size: 12px;
     border-radius: 6px;
 }
-
+#feture .frture-box:nth-child(2) h6{
+    background-color: beige;
+}
+#feture .frture-box:nth-child(3) h6{
+    background-color: rgb(240, 240, 18);
+}
+#feture .frture-box:nth-child(4) h6{
+    background-color: rgb(10, 237, 94);
+}
+#feture .frture-box:nth-child(5) h6{
+    background-color: rgb(231, 27, 27);
+}
+#feture .frture-box:nth-child(6) h6{
+    background-color: rgb(9, 240, 9);
+}
+#product{
+    text-align: center;
+}
+#product .pro{
+    width: 23%;
+    min-width:260px;
+    padding: 10px 12px;
+    border:2px solid #cce7d0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0, 0, 0.3);
+    margin-top: 15px;
+    position: relative;
+}
+#product .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0, 0, 0.6);
+    transition: 0.6s ease;
+}
+#product .pro img{
+    min-width: 190px;
+    width: 100%;
+    border-radius: 10px;
+}
+#pro-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 12px;
+}
+#product .pro .des{
+font-weight: 700;
+text-align: start;
+}
+#product .pro .des span{
+    font-size: 20px;
+    color: red;
+}
+#product .pro h5{
+    font-size: 18px;
+    color:rgb(81, 0, 255);
+}
+#product .pro .card{
+    width:40px;
+    height: 40px;
+    border-radius: 8px;
+    line-height: 40px;
+    background-color: rgb(210, 231, 224);
+    font-weight: 700;
+    color: blue;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 2px solid #cce7d0;
+}
+#product .pro .card:hover{
+    background-color: rgb(146, 134, 197);
+    cursor: pointer;
+}
