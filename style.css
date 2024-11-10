@@ -47,6 +47,18 @@ button.normal{
     outline: none;
     transition: 0.2s;
 }
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color:transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    margin-top: 5px;
+}
 body{
     width: 100%;
 }
@@ -275,12 +287,69 @@ padding: 10px;
 #sm-banner .banner-box{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align:center;
     background-image: url(image/banner/b17.jpg);
     min-width: 540px;
     height: 50vh;
     background-size: cover;
-    background-position: center;     
+    background-position: center;   
+    padding: 34px;  
+}
+#sm-banner h4{
+    color: rgb(239, 239, 244);
+    font-size: 20px;
+    font-weight:500;
+}
+#sm-banner h2{
+    color: red ;
+    font-size: 30px;
+    font-weight:700;
+}
+#sm-banner .banner-box:hover button{
+    background-color: green;
+    transition: 0.3s each ;
+}
+#sm-banner .banner2{
+    background-image: url(image/banner/b10.jpg);
+}
+#benner3{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#benner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align:center;
+    background-image: url(image/banner/b7.jpg);
+    height: 40vh;
+    min-width: 30%;
+    background-size: cover;
+    background-position: center;   
+    padding: 34px;  
+    margin-bottom: 10px;
+}
+#benner3 .banner3{
+    background-image: url(image/banner/b4.jpg);
+}
+#benner3 .banner4{
+    background-image: url(image/banner/b18.jpg);
+
+}
+#benner3 h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 28px;
+
+}
+#benner3 h3{
+    color: #ee2727;
+    font-weight: 00;
+    font-size: 20px;
 }
